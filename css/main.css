@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #b45caf;
+  background: #ff1dbe;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2661,10 +2661,12 @@ ul.breadcrumb li + li:last-child {
 !important
 .site-brand-container {
   background-image: url("/images/header-bg.jpg");
+!important
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+!important
 .site-title a {
   color: #fff !important;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);

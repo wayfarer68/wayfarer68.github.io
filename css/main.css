@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #882aa6;
+  background: #ff4461;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2653,11 +2653,6 @@ ul.breadcrumb li + li:last-child {
     margin: 8px 0 0;
   }
 }
-/* --- 修正后的圆角样式 --- */
-.header-inner,
-.sidebar-inner {
-  border-radius: 20px !important; /* 注意：这里修正了语法错误 */
-}
 /* --- 覆盖 Gemini 主题默认的侧边栏头部背景 --- */
 .sidebar .site-brand-container {
 /* 请务必将 'header-bg.jpg' 替换成你自己的图片文件名 */
@@ -2669,7 +2664,7 @@ ul.breadcrumb li + li:last-child {
 /* 这一行会移除默认的黑色背景，让你的图片能完整显示出来 */
   background-color: transparent !important;
 }
-/* --- 可选但强烈推荐：修改网站标题样式以保证清晰可读 --- */
+/* --- 修改网站标题样式以保证清晰可读 --- */
 .site-title a {
   color: #fff !important;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);

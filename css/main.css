@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #965edd;
+  background: #45b806;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2659,14 +2659,9 @@ ul.breadcrumb li + li:last-child {
 !important
 }
 !important
-.site-overview-author,
-.site-overview {
-  background-image: url("/images/sidebar-bg.jpg") !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
+.header-inner {
+  background: #007bff;
 }
-.site-author-name,
-.site-description {
+.site-title {
   color: #fff !important;
 }

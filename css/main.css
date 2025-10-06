@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff77de;
+  background: #acff2d;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2653,14 +2653,12 @@ ul.breadcrumb li + li:last-child {
     margin: 8px 0 0;
   }
 }
+/* --- 修正后的圆角样式 --- */
 .header-inner,
 .sidebar-inner {
-  border-radius: 20px;
-!important
+  border-radius: 20px !important; /* 注意：这里修正了语法错误 */
 }
-!important
 /* --- 覆盖 Gemini 主题默认的侧边栏头部背景 --- */
-/* 通过添加 ".sidebar"，我们让这个规则的优先级变得更高、更强大 */
 .sidebar .site-brand-container {
 /* 请务必将 'header-bg.jpg' 替换成你自己的图片文件名 */
   background-image: url("/images/header-bg.jpg") !important;

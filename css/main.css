@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #b96bb1;
+  background: #ff865e;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2659,12 +2659,19 @@ ul.breadcrumb li + li:last-child {
 !important
 }
 !important
-.site-brand-container {
+/* --- 覆盖 Gemini 主题默认的侧边栏头部背景 --- */
+/* 通过添加 ".sidebar"，我们让这个规则的优先级变得更高、更强大 */
+.sidebar .site-brand-container {
+/* 请务必将 'header-bg.jpg' 替换成你自己的图片文件名 */
   background-image: url("/images/header-bg.jpg") !important;
+/* 这几行确保图片能正确显示 */
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
+/* 这一行会移除默认的黑色背景，让你的图片能完整显示出来 */
+  background-color: transparent !important;
 }
+/* --- 可选但强烈推荐：修改网站标题样式以保证清晰可读 --- */
 .site-title a {
   color: #fff !important;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
